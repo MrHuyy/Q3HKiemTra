@@ -83,24 +83,15 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnLogin);
-            this.Controls.Add(this.txtUserName);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtPassWord);
+            this.Controls.Add(this.txtMatKhau);
             this.Controls.Add(this.lb1);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
         }
 
         #endregion
-        private Label label1;
-        private TextBox txtUserName;
 
         private Label lb1;
-        private TextBox txtPassWord;
-        private Button btnLogin;
+        private TextBox txtMatKhau;
     }
 }
