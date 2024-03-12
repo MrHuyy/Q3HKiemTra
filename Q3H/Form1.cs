@@ -11,5 +11,10 @@ namespace Q3H
         {
 
         }
+
+        private void lb1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

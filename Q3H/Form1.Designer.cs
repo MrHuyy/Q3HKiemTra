@@ -31,7 +31,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtUserName = new System.Windows.Forms.TextBox();
             this.lb1 = new System.Windows.Forms.Label();
-            this.txtMatKhau = new System.Windows.Forms.TextBox();
+            this.txtPassWord = new System.Windows.Forms.TextBox();
+            this.btnLogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -55,25 +56,36 @@
             this.lb1.AutoSize = true;
             this.lb1.Location = new System.Drawing.Point(126, 135);
             this.lb1.Name = "lb1";
-            this.lb1.Size = new System.Drawing.Size(72, 20);
+            this.lb1.Size = new System.Drawing.Size(70, 20);
             this.lb1.TabIndex = 0;
             this.lb1.Text = "Mat Khau";
+            this.lb1.Click += new System.EventHandler(this.lb1_Click);
             // 
-            // txtMatKhau
+            // txtPassWord
             // 
-            this.txtMatKhau.Location = new System.Drawing.Point(235, 136);
-            this.txtMatKhau.Name = "txtMatKhau";
-            this.txtMatKhau.Size = new System.Drawing.Size(482, 27);
-            this.txtMatKhau.TabIndex = 1;
+            this.txtPassWord.Location = new System.Drawing.Point(235, 136);
+            this.txtPassWord.Name = "txtPassWord";
+            this.txtPassWord.Size = new System.Drawing.Size(482, 27);
+            this.txtPassWord.TabIndex = 1;
+            // 
+            // btnLogin
+            // 
+            this.btnLogin.Location = new System.Drawing.Point(353, 272);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(94, 29);
+            this.btnLogin.TabIndex = 2;
+            this.btnLogin.Text = "Login";
+            this.btnLogin.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtMatKhau);
+            this.Controls.Add(this.txtPassWord);
             this.Controls.Add(this.lb1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -87,6 +99,7 @@
         private TextBox txtUserName;
 
         private Label lb1;
-        private TextBox txtMatKhau;
+        private TextBox txtPassWord;
+        private Button btnLogin;
     }
 }
