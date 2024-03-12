@@ -97,6 +97,5 @@
         private TextBox txtUserName;
 
         private Label lb1;
-        private TextBox txtMatKhau;
     }
 }
