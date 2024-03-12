@@ -56,7 +56,7 @@
             this.lb1.AutoSize = true;
             this.lb1.Location = new System.Drawing.Point(126, 135);
             this.lb1.Name = "lb1";
-            this.lb1.Size = new System.Drawing.Size(70, 20);
+            this.lb1.Size = new System.Drawing.Size(72, 20);
             this.lb1.TabIndex = 0;
             this.lb1.Text = "Mat Khau";
             this.lb1.Click += new System.EventHandler(this.lb1_Click);
@@ -74,7 +74,7 @@
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(94, 29);
             this.btnLogin.TabIndex = 2;
-            this.btnLogin.Text = "Login";
+            this.btnLogin.Text = "Đăng Nhập";
             this.btnLogin.UseVisualStyleBackColor = true;
             // 
             // Form1
